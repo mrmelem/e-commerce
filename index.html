@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Virtual</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="center">
+        <div class="logomarca">
+          <img src="./assets/logo.png" alt="Pedro Melém">
+        </div>
+        <div class="search-box">
+          <div class="btns">
+            <a href="#">Novos</a>
+            <a href="#">Promoções</a>
+            <a href="#">Categorias</a>
+          </div>
+          <div class="input">
+            <input type="text">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <div class="user-profile">
+          <div class="info">
+            <p>Pedro Henrique</p>
+            <span>Seu Carrinho</span>
+          </div>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <article>
+      <div class="slide-container">
+        <div class="container">
+          <div class="btn">
+            <div class="btn-nav" action="previous" id="previous">
+              <img src="./assets/left.png" alt="">
+            </div>
+            <div class="btn-nav" id="next" action="next">
+              <img src="./assets/right.png" alt="">
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="slide"></div>
+        </div>
+      </div>
+    </article>
+    <div class="center">
+      <aside>
+        <div class="container">
+          <div class="categoria">
+            <div class="header">
+              <p>Camisas</p>
+            </div>
+            <div class="body">
+              <p>Filtros</p>
+            </div>
+          </div>
+          <div class="categoria">
+            <div class="header">
+              <p>Calças</p>
+            </div>
+            <div class="body">
+              <p>Filtros</p>
+            </div>
+          </div>
+          <div class="categoria">
+            <div class="header">
+              <p>Moletons</p>
+            </div>
+            <div class="body">
+              <p>Filtros</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="box-grid">
+          <div class="box">
+            <div class="image">
+              <img src="./assets/background.jpg" alt="">
+            </div>
+            <div class="body"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <footer>
+    <p>Site desenvolvido por <a href="#">Pedro Melém</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
