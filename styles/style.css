@@ -258,6 +258,9 @@ footer a {
   nav .center .mobile {
     display: block;
   }
+  section .banner-principal {
+    height: 200px;
+  }
   section .banner-principal img {
     width: 250px;
   }
