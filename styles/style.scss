@@ -28,8 +28,8 @@ header {
     padding: 0 2%;
     display: none;
 }
-
 section {
+    min-height: 100vh;
     .banner-principal {
         background: url("../assets/background-main.png") center no-repeat;
         background-size: cover;
@@ -162,7 +162,6 @@ nav {
         }
     }
 }
-
 footer {
     width: 100%;
     background-color: #414141;

@@ -36,6 +36,10 @@ header {
   display: none;
 }
 
+section {
+  min-height: 100vh;
+}
+
 section .banner-principal {
   background: url("../assets/background-main.png") center no-repeat;
   background-size: cover;
