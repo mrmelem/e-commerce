@@ -1,5 +1,6 @@
 $font: Montserrat, sans-serif;
 $color: #2d2d2d;
+
 * {
     margin: 0;
     padding: 0;
@@ -44,11 +45,24 @@ section {
     }
     .catalogo {
         text-align: center;
-        max-width: 1440px;
         margin: 0 auto;
-        padding: 0 2%;
         margin-bottom: 20px;
-        .container{
+        .header {
+            width: 100%;
+            background-color: white;
+            padding: 20px 0;
+            h1 {
+                font-family: $font;
+                color: $color;
+            }
+        }
+        .body{
+            margin-top: 25px;
+        }
+
+        .container {
+            margin-top: 20px;
+            max-width: 1440px;
             width: 100%;
             padding: 16px;
             display: grid;
@@ -64,10 +78,10 @@ section {
             justify-content: center;
             align-items: center;
             background-color: white;
-            
+            width: 150px;
             .image {
                 img {
-                    width: 150px;
+                    width: 100%;
                 }
             }
             .description {
@@ -178,6 +192,20 @@ footer {
     padding: 16px;
 }
 
+.icon {
+    position: fixed;
+    right: 20px;
+    img{
+        width: 60px;
+    }
+}
+.wpp {
+    bottom: 20px;
+}
+.instagram {
+    bottom: 90px;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 768px) {
     nav .center {
@@ -200,7 +228,7 @@ footer {
     }
 
     section .catalogo {
-        .container{
+        .container {
             padding: 0;
             grid-template-columns: 1fr 1fr;
         }

@@ -29,7 +29,7 @@ $(() => {
             }
         })
 
-        await $.get('../seeds/catalogo', data => {
+        await $.get('../seeds/catalogo.txt', data => {
             var lista = data.split('\n')
             for (i = 0; i < lista.length; i++) {
                 if (lista[i] == '' || lista[i] == ' ') continue
@@ -43,8 +43,8 @@ $(() => {
                 }
             }
         })
-
-        for (let cont = 0; cont < (dados.length - 1); cont++) {
+        
+        for (let cont = 0; cont < dados.length; cont++) {
             var render = card;
 
             render = render.replace(campos.Produto, dados[cont]['Produto'])

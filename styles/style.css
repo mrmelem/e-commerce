@@ -62,13 +62,28 @@ section .banner-principal img {
 
 section .catalogo {
   text-align: center;
-  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2%;
   margin-bottom: 20px;
 }
 
+section .catalogo .header {
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+}
+
+section .catalogo .header h1 {
+  font-family: Montserrat, sans-serif;
+  color: #2d2d2d;
+}
+
+section .catalogo .body {
+  margin-top: 25px;
+}
+
 section .catalogo .container {
+  margin-top: 20px;
+  max-width: 1440px;
   width: 100%;
   padding: 16px;
   display: -ms-grid;
@@ -96,10 +111,11 @@ section .catalogo .box {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
+  width: 150px;
 }
 
 section .catalogo .box .image img {
-  width: 150px;
+  width: 100%;
 }
 
 section .catalogo .box .description {
@@ -249,6 +265,23 @@ footer a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+.icon {
+  position: fixed;
+  right: 20px;
+}
+
+.icon img {
+  width: 60px;
+}
+
+.wpp {
+  bottom: 20px;
+}
+
+.instagram {
+  bottom: 90px;
 }
 
 /* MEDIA QUERY */
