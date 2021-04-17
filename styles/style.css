@@ -90,6 +90,12 @@ section .catalogo .box {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 150px;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+section .catalogo .box .image {
+  height: 100%;
 }
 
 section .catalogo .box .image img {
@@ -97,6 +103,7 @@ section .catalogo .box .image img {
 }
 
 section .catalogo .box .description {
+  height: 100%;
   text-align: center;
 }
 
@@ -152,7 +159,60 @@ footer a {
   bottom: 90px;
 }
 
+.focus {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2%;
+  display: none;
+}
+
+.focus .box-focus {
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+}
+
+.focus .box-focus .image {
+  padding: 0 2%;
+}
+
+.focus .box-focus .image img {
+  width: 100%;
+}
+
+.focus .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 /* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+  section .catalogo .container {
+    padding: 0;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav .center .search-box {
     display: none;
@@ -173,6 +233,14 @@ footer a {
     padding: 0;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section .catalogo .container {
+    padding: 0;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 /*# sourceMappingURL=style.css.map */

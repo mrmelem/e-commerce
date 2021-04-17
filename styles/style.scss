@@ -18,7 +18,6 @@ html {
 body {
     background: rgb(247, 247, 247);
 }
-
 section {
     min-height: 100vh;
     .banner-principal {
@@ -62,17 +61,20 @@ section {
             margin: 0 auto;
         }
         .box {
-            
             margin: 0 auto;
             display: flex;
             flex-direction: column;
             width: 150px;
+            border: 1px solid #ccc;
+            padding: 0;
             .image {
                 img {
                     width: 100%;
                 }
+                height: 100%;
             }
             .description {
+                height: 100%;
                 text-align: center;
                 .title{
                     font-family: $font;
@@ -117,7 +119,51 @@ footer {
     bottom: 90px;
 }
 
+.focus{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+    display: none;
+    .box-focus{
+        z-index: 2;
+        display: flex;
+        max-width: 500px;
+        .image{
+            padding: 0 2%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}
 /* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+
+
+    section .catalogo {
+        .container {
+            padding: 0;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     nav .center {
         .search-box {
@@ -145,3 +191,15 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 400px) {
+
+
+    section .catalogo {
+        .container {
+            padding: 0;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
