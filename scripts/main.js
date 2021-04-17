@@ -19,7 +19,7 @@ $(() => {
     })
 
     async function getBox() {
-        await $.get('../components/box.html', data => {
+        await $.get('https://mrmelem.github.io/e-commerce/components/box.html', data => {
             regexp = RegExp('{{!(.*?)}}*', 'g')
             matches = data.matchAll(regexp)
             card = data
@@ -29,7 +29,7 @@ $(() => {
             }
         })
 
-        await $.get('../seeds/catalogo.txt', data => {
+        await $.get('https://mrmelem.github.io/e-commerce/seeds/catalogo.txt', data => {
             var lista = data.split('\n')
             for (i = 0; i < lista.length; i++) {
                 if (lista[i] == '' || lista[i] == ' ') continue
@@ -43,7 +43,7 @@ $(() => {
                 }
             }
         })
-        
+
         for (let cont = 0; cont < dados.length; cont++) {
             var render = card;
 
