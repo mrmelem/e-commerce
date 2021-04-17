@@ -18,22 +18,7 @@ html {
 }
 
 body {
-  background: #e7d6d7;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 80px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #e0b7d7;
-  padding: 0 2%;
-  display: none;
+  background: #f7f7f7;
 }
 
 section {
@@ -75,6 +60,7 @@ section .catalogo .header {
 section .catalogo .header h1 {
   font-family: Montserrat, sans-serif;
   color: #2d2d2d;
+  font-weight: 400;
 }
 
 section .catalogo .body {
@@ -95,7 +81,6 @@ section .catalogo .container {
 }
 
 section .catalogo .box {
-  border: 1px solid #ccc;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,13 +89,6 @@ section .catalogo .box {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: white;
   width: 150px;
 }
 
@@ -122,126 +100,15 @@ section .catalogo .box .description {
   text-align: center;
 }
 
-nav {
-  width: 100%;
-}
-
-nav .center {
-  max-width: 1080px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav .center .logomarca img {
-  max-width: 250px;
-}
-
-nav .center .search-box {
-  width: 380px;
-  padding: 2px;
-}
-
-nav .center .search-box .input {
-  border-radius: 30px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-nav .center .search-box .input i {
-  color: #676767;
-  background-color: white;
-  width: 40px;
-  height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-right: 15px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-
-nav .center .search-box .input input {
-  font-size: 15px;
-  width: 100%;
-  border: none;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  padding: 8px 16px;
-}
-
-nav .center .search-box .btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-right: 40px;
-  margin-bottom: 5px;
-}
-
-nav .center .search-box .btns a {
-  text-decoration: none;
-  color: #414141;
+section .catalogo .box .description .title {
   font-family: Montserrat, sans-serif;
-  font-size: 15px;
-  font-weight: 700;
+  color: black;
+  font-size: 18px;
 }
 
-nav .center .user-profile {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  float: right;
-}
-
-nav .center .user-profile .info {
-  border-right: 1px solid #2d2d2d;
-  padding-right: 5px;
-  text-align: right;
-  font-family: Montserrat, sans-serif;
-}
-
-nav .center .user-profile .info span {
-  font-size: 15px;
-  color: #2d2d2d;
-}
-
-nav .center .user-profile i {
-  font-size: 26px;
-  margin-left: 5px;
-  height: 100%;
-  color: #2d2d2d;
-}
-
-nav .center .mobile {
-  display: none;
-  margin-right: 20px;
-}
-
-nav .center .mobile i {
-  font-size: 25px;
+section .catalogo .box .description .price {
+  color: #aa508a;
+  font-size: 24px;
 }
 
 footer {
@@ -258,6 +125,7 @@ footer {
           align-items: center;
   color: white;
   font-family: Montserrat, sans-serif;
+  font-size: 12px;
   padding: 16px;
 }
 

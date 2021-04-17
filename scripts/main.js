@@ -1,22 +1,10 @@
 $(() => {
 
-    var matches = '';
+    var matches,card = '';
     var campos = []
     var h, i, x, dados = []
-    var card = ''
     var info;
-    var cardInfo;
 
-    // Clicks
-    $('.btn .btn-nav').click(function () {
-        let id = $(this).attr('action')
-        slide(id)
-        click = true
-    })
-
-    $('.header').click(function () {
-        $(this).siblings('.body').slideToggle(500)
-    })
 
     async function getBox() {
         await $.get('components/box.html', data => {

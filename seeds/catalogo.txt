@@ -1,11 +1,9 @@
 Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide1.jpeg
-Produto: Moletom, Valor: R$ 25,00, Categoria: Moletom, Imagem: slide2.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide3.jpeg
-Produto: Moletom, Valor: R$ 25,00, Categoria: Moletom, Imagem: slide4.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide5.jpeg
-Produto: Moletom, Valor: R$ 25,00, Categoria: Moletom, Imagem: slide6.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide7.jpeg
-Produto: Moletom, Valor: R$ 25,00, Categoria: Moletom, Imagem: slide1.jpeg
 Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide2.jpeg
-Produto: Moletom, Valor: R$ 25,00, Categoria: Moletom, Imagem: slide3.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide3.jpeg
 Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide4.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide5.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide6.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide7.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: produto1.jpeg
+Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: produto2.jpeg
