@@ -1,10 +1,4 @@
-
-
-var matches, card = '';
-var campos = []
-var h, i, x, dados = []
-var info;
-
+var matches, card = ''; var campos = []; var h, i, x, dados = []; var info;
 
 async function getBox() {
     await $.get('components/box.html', data => {

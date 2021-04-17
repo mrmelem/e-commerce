@@ -9,11 +9,18 @@ $(document).on('click', '.box', function () {
         </div>
     `
     $('.box-focus').html(box)
-    $('.focus').css('display','flex')
+    $('.focus').css('display', 'flex')
 })
 
 
 
 $('.overlay').click(function () {
-    $('.focus').css('display','none')
+    $('.focus').css('display', 'none')
+})
+
+
+$(window).scroll(function () { 
+    if ($('.focus').is(':hidden') == false){
+        $('.focus').css('display', 'none')
+    }
 })
