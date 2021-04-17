@@ -43,21 +43,9 @@ async function getBox() {
 
 
     }
-
 }
 
 getBox()
-
-
-/*
-for (x = 0; x < 10; x++) {
-    dados[x] = []
-    for (y = 0; y < 10; y++){
-        dados[x][y] = "Ok"
-    }
-}
-
-*/
 
 
 
