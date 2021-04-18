@@ -210,12 +210,13 @@ footer {
     }
 }
 .main {
-    display: none;
+    display: block;
 }
 .finish {
     padding-top: 50px;
     font-family: $font;
     text-align: center;
+    display: none;
     .container {
         max-width: 1080px;
         margin: 0 auto;

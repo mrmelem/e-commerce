@@ -52,10 +52,9 @@ $(document).ready(function () {
 $(document).on('click', '.fa-times', async function () {
     var ref = ($(this).attr('ref'))
     var data = JSON.parse(localStorage.getItem('shop-cart'))
-    console.log(ref)
     var h = 0;
     for (cont of data) {
-        if (cont[4] === ref){
+        if (cont[4] === ref) {
             await data.splice(h, 1)
         }
         h++

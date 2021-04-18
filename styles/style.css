@@ -279,13 +279,14 @@ footer a {
 }
 
 .main {
-  display: none;
+  display: block;
 }
 
 .finish {
   padding-top: 50px;
   font-family: Montserrat, sans-serif;
   text-align: center;
+  display: none;
 }
 
 .finish .container {
