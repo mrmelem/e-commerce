@@ -1,9 +1,9 @@
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide1.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide2.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide3.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide4.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide5.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide6.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: slide7.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: produto1.jpeg
-Produto: Lingirie, Valor: R$ 30,00, Categoria: Lingirie, Imagem: produto2.jpeg
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide1.jpeg, Codigo: 001x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide2.jpeg, Codigo: 002x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide3.jpeg, Codigo: 003x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide4.jpeg, Codigo: 004x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide5.jpeg, Codigo: 005x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide6.jpeg, Codigo: 006x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: slide7.jpeg, Codigo: 007x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: produto1.jpeg, Codigo: 008x30.00
+Produto: Lingerie, Valor: 30.00, Categoria: Lingerie, Imagem: produto2.jpeg, Codigo: 009x30.00

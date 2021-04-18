@@ -1,7 +1,5 @@
-$(document).on('click', '.box', function () {
-    let image = $(this).children('.image').children('img').attr('src')
-    let title = $(this).children('.description').children('.title').html()
-    let price = $(this).children('.description').children('.price').html()
+$(document).on('click', '.box .image', function () {
+    let image = $(this).children('img').attr('src')
 
     var box = `
         <div class="image">
@@ -12,15 +10,37 @@ $(document).on('click', '.box', function () {
     $('.focus').css('display', 'flex')
 })
 
-
-
 $('.overlay').click(function () {
     $('.focus').css('display', 'none')
 })
-
-
-$(window).scroll(function () { 
-    if ($('.focus').is(':hidden') == false){
+if (window.scrollY > 20) {
+    $('nav').show()
+} else {
+    $('nav').hide()
+}
+$(window).scroll(function () {
+    if ($('.focus').is(':hidden') == false) {
         $('.focus').css('display', 'none')
+    }
+    if (this.scrollY > 20) {
+        $('nav').fadeIn(500)
+    } else {
+        $('nav').fadeOut(500)
+    }
+})
+
+$('nav p').click(function () {
+    if ($('nav .checkout').is(':hidden') == false) {
+        // Catalogo -> Pagamento
+        $('nav .checkout').css('display', 'none')
+        $('nav .products').css('display', 'block')
+        $('.main').hide()
+        $('.finish').show()
+    } else {
+        // Pagamento -> Catalogo
+        $('nav .checkout').css('display', 'block')
+        $('nav .products').css('display', 'none')
+        $('.main').show()
+        $('.finish').hide()
     }
 })

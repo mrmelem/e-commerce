@@ -31,6 +31,12 @@
 
 <body>
 
+  <nav>
+    <p class="products">Produtos | <i class="fas fa-tshirt"></i></p>
+    <p class="checkout">Carrinho | <i class="fas fa-shopping-bag"></i></p>
+  </nav>
+
+
   <div class="icon wpp">
     <a href="https://instagram.com/jessica_d.luxe?igshid=1dv04yfs6j0sa">
       <img src="./assets/instagram.svg" alt="Instagram"></i>
@@ -41,13 +47,14 @@
       <img src="./assets/whatsApp.svg" alt="Whats App"></i>
     </a>
   </div>
-
   <div class="focus">
     <div class="overlay"></div>
     <div class="box-focus"></div>
   </div>
+  <div class="alert-box">
+  </div>
 
-  <section>
+  <section class="main">
     <div class="banner-principal"><img src="./assets/logo-dluxe.png" alt=""></div>
 
     <div class="catalogo">
@@ -60,11 +67,33 @@
     </div>
   </section>
 
+
+  <section class="finish">
+    <div class="container">
+      <div class="cart w50 ">
+        <h1>Seu carrinho</h1>
+        <div class="items"></div>
+
+
+      </div>
+      <div class="profile w50">
+        <h1>Dados pessoais</h1>
+        <form>
+          <input type="text" placeholder="Nome Completo">
+          <input type="text" placeholder="Cpf">
+        </form>
+        <div class="btn">
+          <button>Finalizar pedido!</button>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
     <p>Site desenvolvido por <a href="https://github.com/mrmelem">Pedro Melém</a></p>
   </footer>
 
   <script src="./scripts/animation.js" async></script>
+  <script src="./scripts/cart.js" async></script>
 </body>
 
 </html>

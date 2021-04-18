@@ -30,13 +30,21 @@ async function getBox() {
         var render = card;
 
         render = render.replace(campos.Produto, dados[cont]['Produto'])
-        render = render.replace(campos.Valor, dados[cont]['Valor'])
+        render = render.replace(campos.Valor, formatarMoeda(dados[cont]['Valor']))
         render = render.replace(campos.Imagem, dados[cont]['Imagem'])
+        render = render.replace(campos.Codigo, dados[cont]['Codigo'])
 
         $('.catalogo .body .container').append(render)
 
 
     }
+}
+
+
+function formatarMoeda(val){
+    val = val.toString()
+    val = val.replace('.',',')
+    return "R$ " + val
 }
 
 getBox()
