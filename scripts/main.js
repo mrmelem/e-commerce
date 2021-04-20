@@ -33,18 +33,15 @@ async function getBox() {
         render = render.replace(campos.Valor, formatarMoeda(dados[cont]['Valor']))
         render = render.replace(campos.Imagem, dados[cont]['Imagem'])
         render = render.replace(campos.Codigo, dados[cont]['Codigo'])
-
+        render = render.replace(campos.Tamanho, dados[cont]['Tamanhos'])
         $('.catalogo .body .container').append(render)
 
 
     }
 }
 
-
 function formatarMoeda(val){
-    val = val.toString()
-    val = val.replace('.',',')
-    return "R$ " + val
+    return val.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 }
 
 getBox()

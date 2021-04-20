@@ -286,7 +286,7 @@ footer a {
   padding-top: 50px;
   font-family: Montserrat, sans-serif;
   text-align: center;
-  display: none;
+  display: block;
 }
 
 .finish .container {
@@ -351,7 +351,7 @@ footer a {
 .profile {
   background-color: pink;
   padding: 20px;
-  max-height: 250px;
+  height: 100%;
 }
 
 .profile h1 {
@@ -373,6 +373,22 @@ footer a {
   padding: 8px 16px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
+}
+
+.profile .valorTotal {
+  font-size: 20px;
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.profile .valorTotal p {
+  font-size: 25px;
+}
+
+.profile .valorTotal .price {
+  font-weight: bold;
 }
 
 .w50 {

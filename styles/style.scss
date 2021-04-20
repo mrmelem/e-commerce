@@ -216,7 +216,7 @@ footer {
     padding-top: 50px;
     font-family: $font;
     text-align: center;
-    display: none;
+    display: block;
     .container {
         max-width: 1080px;
         margin: 0 auto;
@@ -261,7 +261,7 @@ footer {
 .profile {
     background-color: pink;
     padding: 20px;
-    max-height: 250px;
+    height: 100%;
     h1{
         color: white;
         margin-bottom: 20px;
@@ -273,6 +273,19 @@ footer {
             padding: 8px 16px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
+        }
+    }
+    .valorTotal{
+        font-size: 20px;
+        color: white;
+        width: 40%;
+        margin: 0 auto;
+        padding: 16px;
+        p{
+            font-size: 25px;
+        }
+        .price{
+            font-weight: bold;
         }
     }
 }
