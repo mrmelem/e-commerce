@@ -30,14 +30,14 @@ $(window).scroll(function () {
 })
 
 $('nav p').click(function () {
+    var body = $("html, body");
+    body.stop().animate({ scrollTop: 0 })
     if ($('nav .checkout').is(':hidden') == false) {
-        // Catalogo -> Pagamento
         $('nav .checkout').css('display', 'none')
         $('nav .products').css('display', 'block')
         $('.main').hide()
         $('.finish').show()
     } else {
-        // Pagamento -> Catalogo
         $('nav .checkout').css('display', 'block')
         $('nav .products').css('display', 'none')
         $('.main').show()
