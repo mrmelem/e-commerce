@@ -286,7 +286,7 @@ footer a {
   padding-top: 50px;
   font-family: Montserrat, sans-serif;
   text-align: center;
-  display: block;
+  display: none;
 }
 
 .finish .container {
