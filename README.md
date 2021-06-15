@@ -1,5 +1,5 @@
 # E-commerce
-## Descrição
+### Descrição
 Um site para exposição de catálogo e redirecionamento para o whats app do proprietário da loja.
 - Tecs:
     - Html
